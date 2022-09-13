@@ -5,11 +5,8 @@ namespace AddressBook_ADO.NET
         public static void Main(string[] args)
         {
             Console.WriteLine("Welcome to the AddressBook DataBase problem");
-
-
-           
-            AddressBookOperations addressBookOperations = new AddressBookOperations();
-           
+            
+            AddressBookOperations addressBookOperations = new AddressBookOperations();           
             try
             {
                 List<AddressBookContactDetails> contactDetailsList = addressBookOperations.GetAllContactDetails();
